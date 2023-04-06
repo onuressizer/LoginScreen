@@ -1,0 +1,93 @@
+:root{
+    --color1:rgb(112, 42, 112);
+    --color2:black;
+    --color3:white;
+    --color4:rgb(240, 238, 238);
+
+}
+section{
+    display: flex;
+    
+}
+
+div.right{
+    width: 350px;
+    height: 500px;
+    background-color: var(--color4);
+    margin: 10px 0px 10px 0;
+    
+  
+}
+
+
+div.right a{
+   text-decoration: none;
+   margin: 5px;
+   font-weight: 300;
+   color: var(--color1);
+   font-size: 1rem;
+
+}
+div.right h3{
+    margin: 5px ;
+    
+}
+
+
+
+div.right h1{
+    text-align: center;
+    font-family: 'Noto Sans Miao', sans-serif;
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+div.right input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0 0 5px;
+    margin: 40px 0 0 70px ;
+    border-top: 1px;
+    border-right: 0;
+    border-left: 0;
+    background-color: var(--color4);
+}
+
+div.right button{
+    background-color: var(--color1);
+    color: var(--color3);
+    margin-top: 8rem ;
+    margin-left: 7rem;
+    font-size: 1rem;
+    font-family: 'Noto Sans Miao', sans-serif;
+    
+}
+
+div.left{
+
+    height: 500px;
+    width: 400px;
+    background-image: url(bg-login.jpg);
+    font-family: 'Noto Sans Miao', sans-serif;
+    margin: 10px 10px 10px 0;
+    
+}
+
+div.left h3{
+    color: var(--color3);
+     display: flex;
+     justify-content: center;
+    font-size: 0.6rem;
+   
+    
+}
+div.left h1{
+    color: var(--color3);
+    display: flex;
+   justify-content: center;
+   padding-top: 200px;
+   font-weight: 350;
+
+}
+
